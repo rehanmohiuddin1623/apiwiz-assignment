@@ -1,6 +1,5 @@
 import React from 'react';
 import type { Edge, Node } from '@xyflow/react';
-import type { SearchCacheInterface } from '../utils/search-cache';
 
 const useGenerateJSON = (searchCache: any) => {
     const [flowObject, setFlowObject] = React.useState<{ nodes: Node[]; edges: Edge[] }>({ nodes: [], edges: [] });
